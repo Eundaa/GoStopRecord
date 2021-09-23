@@ -3,24 +3,85 @@
     padding: 0;
 } */
 
+/* HEADER */
+
+header h1 {
+  font-size: 80px;
+}
 
 /* WRAPPER */
 
 section.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-  
+
 article.contents {
-    width: 1400px;
-    height: 1150px;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  width: 1400px;
+  /* height: 1150px; */
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* HEADER */
+.records {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+}
 
-header h1 {
-    font-size: 80px;
+#record1 {
+  background-color: aqua;
+}
+
+#record2 {
+  background-color: red;
+}
+
+#record3 {
+  background-color: orange;
+}
+
+.nameField {
+  height: 50px;
+  font-size: 20px;
+  color: #555;
+  font-weight: 400;
+  padding-left: 14px;
+  border: 1px solid #cacaca;
+  margin-top: 20px;
+  border-radius: 14px;
+}
+
+.nameField:focus {
+  outline: none;
+}
+
+/* RESULT */
+.resultHeader {
+  font-size: 40px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+}
+
+#result1 {
+  background-color: aqua;
+}
+
+#result2 {
+  background-color: red;
+}
+
+#result3 {
+  background-color: orange;
 }
